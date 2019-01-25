@@ -1,0 +1,8 @@
+# Eagle PCB backup files
+*.s#*
+*.b#*
+
+# Microsoft temporary files
+~*.docx
+~*.xlsx
+*.tmp
