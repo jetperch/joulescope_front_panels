@@ -13,4 +13,5 @@ As of Jan 2019, all designs were done in Autodesk Eagle PCB.
 
 ## License
 
-All designes are released under the permissive Apache 2.0 license.
+All Joulescope front-panel designs are released under the 
+permissive Apache 2.0 license.
