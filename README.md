@@ -8,7 +8,10 @@ connect to your power supply and target device.
 For more information on Joulescope, see 
 [www.joulescope.com](https://www.joulescope.com).
 
-As of Jan 2019, all designs were done in Autodesk Eagle PCB.
+As of Mar 2019, all designs were done in Autodesk Eagle PCB.
+
+The [Baseline PDF](fp_baseline.pdf) show the board outline and critical 
+dimensions.
 
 
 ## License

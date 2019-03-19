@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -156,38 +156,46 @@
 <wire x1="77.6" y1="22.81" x2="73.81" y2="26.6" width="0" layer="20" curve="90"/>
 <wire x1="73.81" y1="26.6" x2="3.79" y2="26.6" width="0" layer="20"/>
 <wire x1="3.79" y1="26.6" x2="0" y2="22.81" width="0" layer="20" curve="90"/>
-<text x="38.8" y="3.81" size="1.27" layer="122" font="vector" ratio="20" rot="MR0" align="center">Joulescope Front Panel: [Type Name] rev [?]
-2019 [Your Name]</text>
+<text x="10.225" y="22.86" size="3.81" layer="121" font="vector" ratio="20" align="center">-</text>
+<text x="29.275" y="22.86" size="3.81" layer="121" font="vector" ratio="20" align="center">+</text>
+<text x="48.325" y="22.86" size="3.81" layer="121" font="vector" ratio="20" align="center">-</text>
+<text x="67.375" y="22.86" size="3.81" layer="121" font="vector" ratio="20" align="center">+</text>
+<text x="19.75" y="22.86" size="3.81" layer="121" font="vector" ratio="20" align="center">IN</text>
+<text x="57.85" y="22.86" size="3.81" layer="121" font="vector" ratio="20" align="center">OUT</text>
+<text x="38.8" y="3.81" size="1.27" layer="122" font="vector" ratio="20" rot="MR0" align="center">Joulescope Front Panel: Binding Posts rev A
+2019 Jetperch LLC</text>
 <dimension x1="0" y1="22.81" x2="77.6" y2="19.05" x3="38.8" y3="40.64" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="3.79" y1="0" x2="7.62" y2="26.6" x3="-12.35" y3="13.3" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="3.79" y1="0" x2="7.62" y2="26.6" x3="-6.35" y3="13.3" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="0" y1="3.79" x2="3.79" y2="3.79" x3="1.895" y3="-8.89" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.79" y1="0" x2="3.79" y2="3.79" x3="-2.54" y3="1.895" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="2.5483125" y1="21.576828125" x2="5.0316875" y2="24.043171875" x3="-7.815665625" y3="34.49580625" textsize="1.778" layer="47" dtype="diameter"/>
+<dimension x1="2.5483125" y1="21.576828125" x2="5.0316875" y2="24.043171875" x3="-6.349990625" y3="33.0200125" textsize="1.778" layer="47" dtype="diameter"/>
 <dimension x1="73.81" y1="3.79" x2="76.74625" y2="1.393640625" x3="82.78919375" y3="-3.53818125" textsize="1.778" layer="47" dtype="radius"/>
-<dimension x1="38.8" y1="20.615" x2="77.6" y2="26.6" x3="86.55" y3="23.6075" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="38.8" y1="20.615" x2="39.37" y2="26.67" x3="82.55" y3="23.6425" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="10.225" y1="11.76" x2="29.275" y2="11.76" x3="19.75" y3="-3.81" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="48.325" y1="11.76" x2="67.375" y2="11.16" x3="57.85" y3="-3.81" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="29.275" y1="11.76" x2="48.325" y2="8.89" x3="38.8" y3="-3.81" textsize="1.778" layer="47" dtype="horizontal"/>
 <rectangle x1="0" y1="17.3" x2="25.5" y2="19.3" layer="40"/>
-<rectangle x1="39.5" y1="17.3" x2="77.6" y2="19.3" layer="40"/>
+<rectangle x1="52.1" y1="17.3" x2="77.6" y2="19.3" layer="40"/>
 <rectangle x1="0" y1="0" x2="77.6" y2="1.5" layer="40"/>
 <rectangle x1="0" y1="25.1" x2="77.6" y2="26.6" layer="40"/>
 <rectangle x1="0" y1="0" x2="1.5" y2="26.6" layer="40"/>
 <rectangle x1="76.1" y1="0" x2="77.6" y2="26.6" layer="40"/>
+<text x="19.75" y="3.81" size="2" layer="121" font="vector" ratio="20" align="center">Power Supply</text>
+<text x="57.85" y="3.81" size="2" layer="121" font="vector" ratio="20" align="center">Device under Test</text>
 <text x="38.8" y="3.81" size="1.5" layer="121" font="vector" ratio="20" align="center">0 to 15V
 0 to 3A</text>
 <wire x1="0" y1="17.3" x2="16.64" y2="17.3" width="0.254" layer="22"/>
 <wire x1="39.37" y1="19.3" x2="77.6" y2="19.3" width="0.254" layer="22"/>
 <wire x1="39.37" y1="18.3" x2="77.6" y2="18.3" width="0.127" layer="22" style="shortdash"/>
-<dimension x1="77.6" y1="0" x2="77.6" y2="18.3" x3="83.63" y3="9.15" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="0" x2="0" y2="13.3" x3="-7.5785125" y3="6.65" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="26.6" x2="32.45" y2="20.615" x3="16.225" y3="32.984990625" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="38.8" y1="26.6" x2="19.75" y2="17" x3="29.275" y3="29.21" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="77.6" y1="0" x2="77.6" y2="18.3" x3="93.63" y3="9.15" textsize="1.778" layer="47"/>
+<dimension x1="77.6" y1="0" x2="77.6" y2="10.76" x3="87.4214875" y3="5.38" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="26.6" x2="32.45" y2="26.6" x3="16.225" y3="32.984990625" textsize="1.778" layer="47"/>
+<dimension x1="38.8" y1="26.6" x2="19.75" y2="26.6" x3="29.275" y3="29.21" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="26.6" x2="38.8" y2="26.6" x3="19.4" y3="36.794990625" textsize="1.778" layer="47"/>
 <text x="43.18" y="-10.16" size="1.778" layer="153">All dimensions in millimeters</text>
 <wire x1="0" y1="19.3" x2="25.53" y2="19.3" width="0.254" layer="22"/>
 <wire x1="0" y1="18.3" x2="16.64" y2="18.3" width="0.127" layer="22" style="shortdash"/>
 <wire x1="39.37" y1="17.3" x2="77.6" y2="17.3" width="0.254" layer="22"/>
-<dimension x1="38.8" y1="26.6" x2="0" y2="26.6" x3="19.4" y3="37.21" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="13.3" x2="19.75" y2="17" x3="-7.5785125" y3="15.15" textsize="1.778" layer="47" dtype="vertical"/>
-<text x="43.18" y="-17.16" size="1.778" layer="153">Joulescope Front Panel Reference Baseline
-Last updated: 2019 Mar 19</text>
 </plain>
 <libraries>
 <library name="jetperch">
@@ -223,6 +231,12 @@ Last updated: 2019 Mar 19</text>
 <wire x1="6.35" y1="1.27" x2="5.969" y2="1.27" width="0.254" layer="21"/>
 <wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.254" layer="21"/>
 </package>
+<package name="BINDING_POST_6">
+<pad name="1" x="0" y="0" drill="4.318" diameter="8.89"/>
+<circle x="0" y="0" radius="5.3848" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="4.826" width="0.127" layer="40"/>
+<text x="-1.778" y="5.588" size="0.8128" layer="25" font="vector" ratio="22">&gt;NAME</text>
+</package>
 <package name="LP_3MM">
 <description>&lt;h2&gt;Panel Mount Light Pipe 0.115"&lt;/h2&gt;
 &lt;p&gt;Suitable for Dialight 515-1302-0125F&lt;/p</description>
@@ -231,6 +245,15 @@ Last updated: 2019 Mar 19</text>
 <circle x="0" y="0" radius="1.016" width="0.127" layer="51"/>
 <wire x1="-1.016" y1="0" x2="1.016" y2="0" width="0.127" layer="51"/>
 <wire x1="0" y1="1.016" x2="0" y2="-1.016" width="0.127" layer="51"/>
+</package>
+<package name="FIDUCIAL_1MM_2MM">
+<circle x="0" y="0" radius="0.508" width="0" layer="29"/>
+<circle x="0" y="0" radius="1.016" width="0" layer="41"/>
+<circle x="0" y="0" radius="1.016" width="0" layer="39"/>
+<circle x="0" y="0" radius="0.508" width="0.127" layer="51"/>
+<wire x1="-1" y1="0" x2="1" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="1" x2="0" y2="-1" width="0.127" layer="51"/>
+<smd name="P1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" thermals="no" cream="no"/>
 </package>
 <package name="HOLE_3.5MM">
 <description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
@@ -441,31 +464,64 @@ These design rules are for standard two layer Jetperch designs.
 <attribute name="NAME" x="39.308" y="21.885" size="0.8128" layer="26" font="vector" ratio="22" rot="MR180"/>
 <attribute name="POPULATE" value="1" x="32.45" y="20.615" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
+<element name="J1" library="jetperch" package="BINDING_POST_6" value="111-0703-001" x="10.225" y="11.76" smashed="yes">
+<attribute name="MPN" value="" x="10.225" y="11.76" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="16.32" y="12.046" size="0.8128" layer="25" font="vector" ratio="22"/>
+<attribute name="POPULATE" value="1" x="10.225" y="11.76" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J2" library="jetperch" package="BINDING_POST_6" value="111-0702-001" x="29.275" y="11.76" smashed="yes">
+<attribute name="MPN" value="" x="29.275" y="11.76" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="35.37" y="12.046" size="0.8128" layer="25" font="vector" ratio="22"/>
+<attribute name="POPULATE" value="1" x="29.275" y="11.76" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J3" library="jetperch" package="BINDING_POST_6" value="111-0703-001" x="48.325" y="11.76" smashed="yes">
+<attribute name="MPN" value="" x="48.325" y="11.76" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="54.42" y="12.046" size="0.8128" layer="25" font="vector" ratio="22"/>
+<attribute name="POPULATE" value="1" x="48.325" y="11.76" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J4" library="jetperch" package="BINDING_POST_6" value="111-0702-001" x="67.375" y="11.76" smashed="yes">
+<attribute name="MPN" value="" x="67.375" y="11.76" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="73.47" y="12.046" size="0.8128" layer="25" font="vector" ratio="22"/>
+<attribute name="POPULATE" value="1" x="67.375" y="11.76" size="1.778" layer="27" display="off"/>
+</element>
 <element name="H1" library="jetperch" package="LP_3MM" value="51513020125F" x="19.75" y="17" smashed="yes">
 <attribute name="MPN" value="51513020125F" x="19.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="19.75" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H3" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="3.79" y="3.79" smashed="yes">
-<attribute name="POPULATE" value="0" x="3.79" y="3.79" size="1.778" layer="27" display="off"/>
+<element name="FUD1" library="jetperch" package="FIDUCIAL_1MM_2MM" value="FIDUCIAL_1MM" x="8.79" y="3.79" smashed="yes" rot="MR0">
+<attribute name="POPULATE" value="0" x="8.79" y="3.79" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="H2" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="3.79" y="22.81" smashed="yes">
-<attribute name="POPULATE" value="0" x="3.79" y="22.81" size="1.778" layer="27" display="off"/>
+<element name="FUD2" library="jetperch" package="FIDUCIAL_1MM_2MM" value="FIDUCIAL_1MM" x="68.81" y="3.79" smashed="yes" rot="MR0">
+<attribute name="POPULATE" value="0" x="68.81" y="3.79" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="H4" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="73.81" y="22.81" smashed="yes">
-<attribute name="POPULATE" value="0" x="73.81" y="22.81" size="1.778" layer="27" display="off"/>
+<element name="FUD3" library="jetperch" package="FIDUCIAL_1MM_2MM" value="FIDUCIAL_1MM" x="8.79" y="22.81" smashed="yes" rot="MR0">
+<attribute name="POPULATE" value="0" x="8.79" y="22.81" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="H5" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="73.81" y="3.79" smashed="yes">
-<attribute name="POPULATE" value="0" x="73.81" y="3.79" size="1.778" layer="27" display="off"/>
-</element>
+<element name="H2" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="3.79" y="3.79" smashed="yes"/>
+<element name="H3" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="3.79" y="22.81" smashed="yes"/>
+<element name="H4" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="73.81" y="3.79" smashed="yes"/>
+<element name="H5" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="73.81" y="22.81" smashed="yes"/>
 </elements>
 <signals>
 <signal name="EXT_IN">
 <contactref element="J5" pad="2"/>
 <contactref element="J5" pad="1"/>
-<wire x1="27.37" y1="19.1545" x2="29.91" y2="22.0755" width="0" layer="19" extent="16-16"/>
+<polygon width="0.254" layer="16" isolate="0.254" thermals="no">
+<vertex x="31.75" y="26.543"/>
+<vertex x="22.86" y="26.543"/>
+<vertex x="22.86" y="11.684"/>
+<vertex x="31.75" y="11.684"/>
+</polygon>
+<contactref element="J2" pad="1"/>
+<via x="29.21" y="15.113" extent="1-16" drill="0.508"/>
+<via x="26.162" y="11.684" extent="1-16" drill="0.508"/>
+<via x="32.385" y="11.684" extent="1-16" drill="0.508"/>
+<via x="29.21" y="8.636" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="EXT_NEG">
 <contactref element="J5" pad="3"/>
+<contactref element="J1" pad="1"/>
+<contactref element="J3" pad="1"/>
 <polygon width="0.1524" layer="1" thermals="no">
 <vertex x="73.81" y="0"/>
 <vertex x="3.79" y="0" curve="-90"/>
@@ -476,29 +532,46 @@ These design rules are for standard two layer Jetperch designs.
 <vertex x="77.6" y="22.81"/>
 <vertex x="77.6" y="3.79" curve="-90"/>
 </polygon>
+<wire x1="33.909" y1="19.177" x2="33.8865" y2="19.1545" width="0.762" layer="16"/>
+<wire x1="32.45" y1="19.1545" x2="33.8865" y2="19.1545" width="0.762" layer="16"/>
+<via x="33.909" y="19.177" extent="1-16" drill="0.508"/>
+<via x="33.909" y="18.161" extent="1-16" drill="0.508"/>
 <polygon width="0.254" layer="16" thermals="no" rank="3">
 <vertex x="0" y="26.6"/>
 <vertex x="0" y="3.79" curve="90"/>
 <vertex x="3.79" y="0"/>
-<vertex x="31.29" y="0"/>
-<vertex x="31.29" y="26.6"/>
+<vertex x="34.29" y="0"/>
+<vertex x="34.29" y="26.6"/>
 </polygon>
-<wire x1="32.45" y1="19.1545" x2="32.45" y2="23.05" width="0.762" layer="16"/>
-<wire x1="32.45" y1="23.05" x2="32.5" y2="23.1" width="0.762" layer="16"/>
-<via x="32.5" y="23.1" extent="1-16" drill="0.508"/>
+<wire x1="33.909" y1="19.177" x2="33.909" y2="18.161" width="0.76" layer="16"/>
+<via x="6.858" y="11.684" extent="1-16" drill="0.508"/>
+<via x="13.589" y="11.684" extent="1-16" drill="0.508"/>
+<via x="10.16" y="15.113" extent="1-16" drill="0.508"/>
+<via x="10.16" y="8.382" extent="1-16" drill="0.508"/>
+<via x="48.387" y="8.382" extent="1-16" drill="0.508"/>
+<via x="45.085" y="11.684" extent="1-16" drill="0.508"/>
+<via x="51.689" y="11.811" extent="1-16" drill="0.508"/>
+<via x="48.26" y="15.113" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="EXT_OUT">
 <contactref element="J5" pad="5"/>
 <contactref element="J5" pad="4"/>
+<contactref element="J4" pad="1"/>
 <polygon width="0.254" layer="16" isolate="0.254" thermals="no">
-<vertex x="33.56" y="26.6"/>
+<vertex x="34.29" y="26.6"/>
+<vertex x="39.37" y="26.6"/>
 <vertex x="73.68" y="26.6" curve="-90"/>
 <vertex x="77.47" y="22.81"/>
 <vertex x="77.47" y="3.79" curve="-90"/>
 <vertex x="73.68" y="0"/>
-<vertex x="33.56" y="0"/>
+<vertex x="35.56" y="0"/>
+<vertex x="34.29" y="1.27"/>
+<vertex x="34.29" y="19.05"/>
 </polygon>
-<wire x1="34.99" y1="22.0755" x2="37.53" y2="19.1545" width="0" layer="19" extent="16-16"/>
+<via x="67.437" y="14.986" extent="1-16" drill="0.508"/>
+<via x="64.262" y="11.684" extent="1-16" drill="0.508"/>
+<via x="70.612" y="11.684" extent="1-16" drill="0.508"/>
+<via x="67.437" y="8.509" extent="1-16" drill="0.508"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
