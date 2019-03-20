@@ -187,7 +187,15 @@
 <dimension x1="38.8" y1="26.6" x2="0" y2="26.6" x3="19.4" y3="37.21" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="13.3" x2="19.75" y2="17" x3="-7.5785125" y3="15.15" textsize="1.778" layer="47" dtype="vertical"/>
 <text x="43.18" y="-17.16" size="1.778" layer="153">Joulescope Front Panel Reference Baseline
-Last updated: 2019 Mar 19</text>
+Last updated: 2019 Mar 20</text>
+<text x="17.18" y="-12.86" size="1.778" layer="153">Backside keepout
+(in blue)</text>
+<wire x1="26.9" y1="-8.2" x2="31.8" y2="-0.6" width="0.3" layer="153"/>
+<polygon width="0.1524" layer="153">
+<vertex x="30.5" y="-1"/>
+<vertex x="31.9" y="-1.9"/>
+<vertex x="31.9" y="-0.4"/>
+</polygon>
 </plain>
 <libraries>
 <library name="jetperch">
