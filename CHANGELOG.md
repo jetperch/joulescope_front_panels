@@ -12,6 +12,7 @@ This file contains the list of changes made to joulescope_front_panels.
 * Improved text.
 * Added gerbers.
 * Added USB back panel.
+* Added PCBWay order notes to readme.
 
 
 ## 0.1.0
