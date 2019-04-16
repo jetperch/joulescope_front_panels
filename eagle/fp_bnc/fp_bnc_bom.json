@@ -1,0 +1,104 @@
+{
+  "C1": {
+    "value": "DNI",
+    "device": "CAP_0603",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "C2": {
+    "value": "DNI",
+    "device": "CAP_0603",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H1": {
+    "value": "51513020125F",
+    "device": "LIGHT_PIPE_PANEL_3MM",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "51513020125F",
+      "POPULATE": "1"
+    }
+  },
+  "H2": {
+    "value": "HOLE_#6",
+    "device": "HOLE_#6",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H3": {
+    "value": "HOLE_#6",
+    "device": "HOLE_#6",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H4": {
+    "value": "HOLE_#6",
+    "device": "HOLE_#6",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H5": {
+    "value": "HOLE_#6",
+    "device": "HOLE_#6",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "J1": {
+    "value": "031-5329-52RFX",
+    "device": "BNC_JACKBNC_31-5329-52RFX",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "031-5329-52RFX",
+      "POPULATE": "1"
+    }
+  },
+  "J2": {
+    "value": "031-5329-52RFX",
+    "device": "BNC_JACKBNC_31-5329-52RFX",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "031-5329-52RFX",
+      "POPULATE": "1"
+    }
+  },
+  "J5": {
+    "value": "TSM-110-01-S-SV",
+    "device": "CONN_0.1_5X1_MS",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "TSM-110-01-S-SV",
+      "POPULATE": "1"
+    }
+  },
+  "R1": {
+    "value": "DNI",
+    "device": "RESISTOR_1206",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0",
+      "TOLERANCE": ""
+    }
+  },
+  "R2": {
+    "value": "DNI",
+    "device": "RESISTOR_1206",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0",
+      "TOLERANCE": ""
+    }
+  }
+}

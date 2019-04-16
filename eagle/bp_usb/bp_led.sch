@@ -205,203 +205,41 @@
 </library>
 <library name="jetperch">
 <packages>
-<package name="CONN_0.1_5X1_MS">
-<smd name="1" x="-5.08" y="1.4605" dx="3.429" dy="1.143" layer="1" rot="R90"/>
-<smd name="3" x="0" y="1.4605" dx="3.429" dy="1.143" layer="1" rot="R90"/>
-<smd name="5" x="5.08" y="1.4605" dx="3.429" dy="1.143" layer="1" rot="R90"/>
-<smd name="2" x="-2.54" y="-1.4605" dx="3.429" dy="1.143" layer="1" rot="R90"/>
-<smd name="4" x="2.54" y="-1.4605" dx="3.429" dy="1.143" layer="1" rot="R90"/>
-<wire x1="-6.604" y1="3.429" x2="-6.604" y2="-3.429" width="0.0508" layer="39"/>
-<wire x1="-6.604" y1="-3.429" x2="6.604" y2="-3.429" width="0.0508" layer="39"/>
-<wire x1="6.604" y1="-3.429" x2="6.604" y2="3.429" width="0.0508" layer="39"/>
-<wire x1="6.604" y1="3.429" x2="-6.604" y2="3.429" width="0.0508" layer="39"/>
-<text x="-6.223" y="3.683" size="0.8128" layer="25" font="vector" ratio="22">&gt;NAME</text>
-<wire x1="-5.969" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="-6.35" y1="-1.27" x2="-3.81" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="6.35" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-5.969" y1="3.175" x2="-5.969" y2="1.905" width="0.254" layer="21"/>
-<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-6.35" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="6.35" y1="-1.27" x2="6.35" y2="1.27" width="0.127" layer="51"/>
-<wire x1="6.35" y1="1.27" x2="-6.35" y2="1.27" width="0.127" layer="51"/>
-<rectangle x1="-5.4102" y1="1.27" x2="-4.7498" y2="2.54" layer="51"/>
-<rectangle x1="-0.3302" y1="1.27" x2="0.3302" y2="2.54" layer="51"/>
-<rectangle x1="4.7498" y1="1.27" x2="5.4102" y2="2.54" layer="51"/>
-<rectangle x1="-2.8702" y1="-2.54" x2="-2.2098" y2="-1.27" layer="51"/>
-<rectangle x1="2.2098" y1="-2.54" x2="2.8702" y2="-1.27" layer="51"/>
-<wire x1="6.35" y1="1.27" x2="5.969" y2="1.27" width="0.254" layer="21"/>
-<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.254" layer="21"/>
-</package>
-<package name="BINDING_POST_6">
-<pad name="1" x="0" y="0" drill="3.7592" diameter="8.89"/>
-<circle x="0" y="0" radius="5.3848" width="0.127" layer="39"/>
-<circle x="0" y="0" radius="4.826" width="0.127" layer="40"/>
-<text x="-1.778" y="5.588" size="0.8128" layer="25" font="vector" ratio="22">&gt;NAME</text>
-</package>
 <package name="LP_3MM">
 <description>&lt;h2&gt;Panel Mount Light Pipe 0.115"&lt;/h2&gt;
 &lt;p&gt;Suitable for Dialight 515-1302-0125F&lt;/p</description>
 <hole x="0" y="0" drill="2.921"/>
 <circle x="0" y="0" radius="2.159" width="0" layer="39"/>
-<circle x="0" y="0" radius="1.016" width="0.127" layer="51"/>
-<wire x1="-1.016" y1="0" x2="1.016" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="1.016" x2="0" y2="-1.016" width="0.127" layer="51"/>
 </package>
-<package name="FIDUCIAL_1MM_2MM">
-<circle x="0" y="0" radius="0.508" width="0" layer="29"/>
-<circle x="0" y="0" radius="1.016" width="0" layer="41"/>
-<circle x="0" y="0" radius="1.016" width="0" layer="39"/>
-<circle x="0" y="0" radius="0.508" width="0.127" layer="51"/>
-<wire x1="-1" y1="0" x2="1" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="1" x2="0" y2="-1" width="0.127" layer="51"/>
-<smd name="P1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" thermals="no" cream="no"/>
-</package>
-<package name="CONN_0.1_5X1_F_RA">
-<pad name="1" x="-5.08" y="0" drill="1.016" shape="square"/>
-<pad name="2" x="-2.54" y="0" drill="1.016"/>
-<pad name="3" x="0" y="0" drill="1.016"/>
-<pad name="4" x="2.54" y="0" drill="1.016"/>
-<pad name="5" x="5.08" y="0" drill="1.016"/>
-<rectangle x1="-7.112" y1="-10.287" x2="7.112" y2="1.524" layer="39"/>
-<text x="-6.35" y="1.524" size="0.8128" layer="25" font="vector" ratio="22">&gt;NAME</text>
-<wire x1="-6.35" y1="0.762" x2="-6.35" y2="-0.762" width="0.127" layer="21"/>
-<wire x1="-6.604" y1="-1.524" x2="6.604" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="6.604" y1="-1.524" x2="6.604" y2="-9.779" width="0.127" layer="21"/>
-<wire x1="6.604" y1="-9.779" x2="-6.604" y2="-9.779" width="0.127" layer="21"/>
-<wire x1="-6.604" y1="-9.779" x2="-6.604" y2="-1.524" width="0.127" layer="21"/>
-<rectangle x1="-5.3848" y1="-1.524" x2="-4.7752" y2="-1.016" layer="21"/>
-<rectangle x1="-2.8448" y1="-1.524" x2="-2.2352" y2="-1.016" layer="21"/>
-<rectangle x1="-0.3048" y1="-1.524" x2="0.3048" y2="-1.016" layer="21"/>
-<rectangle x1="2.2352" y1="-1.524" x2="2.8448" y2="-1.016" layer="21"/>
-<rectangle x1="4.7752" y1="-1.524" x2="5.3848" y2="-1.016" layer="21"/>
-<rectangle x1="-6.604" y1="-1.524" x2="6.604" y2="1.524" layer="40"/>
-<wire x1="-6.604" y1="-1.524" x2="-6.604" y2="-9.779" width="0.127" layer="51"/>
-<wire x1="-6.604" y1="-9.779" x2="6.604" y2="-9.779" width="0.127" layer="51"/>
-<wire x1="6.604" y1="-9.779" x2="6.604" y2="-1.524" width="0.127" layer="51"/>
-<wire x1="6.604" y1="-1.524" x2="-6.604" y2="-1.524" width="0.127" layer="51"/>
-<rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-1.524" x2="5.334" y2="0.254" layer="51"/>
-<circle x="-5.08" y="0" radius="0.508" width="0.127" layer="51"/>
-<circle x="-2.54" y="0" radius="0.508" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="0.508" width="0.127" layer="51"/>
-<circle x="2.54" y="0" radius="0.508" width="0.127" layer="51"/>
-<circle x="5.08" y="0" radius="0.508" width="0.127" layer="51"/>
-<wire x1="-5.715" y1="0.635" x2="-5.715" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-5.715" y1="-0.635" x2="-4.445" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-4.445" y1="-0.635" x2="-4.445" y2="0.635" width="0.127" layer="51"/>
-<wire x1="-4.445" y1="0.635" x2="-5.715" y2="0.635" width="0.127" layer="51"/>
-</package>
-<package name="HOLE_3.5MM">
-<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
-<circle x="0" y="0" radius="3.8" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.5"/>
-<polygon width="0.127" layer="41">
-<vertex x="-3.8" y="0" curve="90"/>
-<vertex x="0" y="-3.8" curve="90"/>
-<vertex x="3.8" y="0" curve="90"/>
-<vertex x="0" y="3.8" curve="90"/>
-</polygon>
-<circle x="0" y="0" radius="2.159" width="0.127" layer="40"/>
+<package name="FOAM_0.5_0.25">
+<wire x1="-3.175" y1="6.35" x2="-3.175" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-6.35" x2="3.175" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-6.35" x2="3.175" y2="6.35" width="0.127" layer="21"/>
+<wire x1="3.175" y1="6.35" x2="-3.175" y2="6.35" width="0.127" layer="21"/>
+<text x="0" y="0" size="0.8128" layer="25" ratio="22" rot="R180" align="center">&gt;NAME</text>
+<wire x1="-3.175" y1="6.35" x2="-3.175" y2="-6.35" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-6.35" x2="3.175" y2="-6.35" width="0.127" layer="51"/>
+<wire x1="3.175" y1="-6.35" x2="3.175" y2="6.35" width="0.127" layer="51"/>
+<wire x1="3.175" y1="6.35" x2="-3.175" y2="6.35" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
-<symbol name="CONN_0.1_5X1">
-<pin name="1" x="5.08" y="5.08" visible="pad" length="short" rot="R180"/>
-<pin name="2" x="5.08" y="2.54" visible="pad" length="short" rot="R180"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
-<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" rot="R180"/>
-<pin name="5" x="5.08" y="-5.08" visible="pad" length="short" rot="R180"/>
-<circle x="0" y="5.08" radius="0.71841875" width="0" layer="94"/>
-<circle x="0" y="2.54" radius="0.71841875" width="0" layer="94"/>
-<circle x="0" y="0" radius="0.71841875" width="0" layer="94"/>
-<circle x="0" y="-2.54" radius="0.71841875" width="0" layer="94"/>
-<circle x="0" y="-5.08" radius="0.71841875" width="0" layer="94"/>
-<wire x1="0" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
-<text x="-2.54" y="7.874" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-9.398" size="1.27" layer="96">&gt;VALUE</text>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-</symbol>
-<symbol name="BANANA">
-<pin name="1" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
-<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
-<text x="2.794" y="0.508" size="1.27" layer="95">&gt;NAME</text>
-<text x="2.794" y="-2.032" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="LIGHT_PIPE">
 <circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
 <text x="0" y="0" size="1.778" layer="94" align="center">Light
 Pipe</text>
 </symbol>
-<symbol name="FIDUCIAL">
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="0.635" width="0" layer="94"/>
-</symbol>
-<symbol name="STAND-OFF">
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<symbol name="FOAM">
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">FOAM</text>
+<text x="-5.08" y="3.302" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONN_0.1_5X1" prefix="J" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="CONN_0.1_5X1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_F_RA" package="CONN_0.1_5X1_F_RA">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_MS" package="CONN_0.1_5X1_MS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BINDING_POST" prefix="J" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="BANANA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_6" package="BINDING_POST_6">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LIGHT_PIPE" prefix="H" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LIGHT_PIPE" x="0" y="0"/>
@@ -417,26 +255,12 @@ Pipe</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FIDUCIAL" prefix="FD">
+<deviceset name="FOAM" prefix="H">
 <gates>
-<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+<gate name="G$1" symbol="FOAM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_1MM" package="FIDUCIAL_1MM_2MM">
-<technologies>
-<technology name="">
-<attribute name="POPULATE" value="0"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="HOLE" prefix="H">
-<gates>
-<gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_#6" package="HOLE_3.5MM">
+<device name="_0.5_0.25" package="FOAM_0.5_0.25">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -453,47 +277,26 @@ Pipe</text>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="USBD" width="1.016" drill="0">
+<clearance class="0" value="0.1524"/>
+<clearance class="1" value="0.508"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device="" value="PG1"/>
-<part name="J5" library="jetperch" deviceset="CONN_0.1_5X1" device="_MS" value="TSM-105-01-S-SV">
-<attribute name="MPN" value="TSM-105-01-S-SV"/>
-<attribute name="POPULATE" value="1"/>
-</part>
-<part name="J1" library="jetperch" deviceset="BINDING_POST" device="_6" value="111-0703-001">
-<attribute name="MPN" value=""/>
-<attribute name="POPULATE" value="1"/>
-</part>
-<part name="J2" library="jetperch" deviceset="BINDING_POST" device="_6" value="111-0702-001">
-<attribute name="MPN" value=""/>
-<attribute name="POPULATE" value="1"/>
-</part>
-<part name="J3" library="jetperch" deviceset="BINDING_POST" device="_6" value="111-0703-001">
-<attribute name="MPN" value=""/>
-<attribute name="POPULATE" value="1"/>
-</part>
-<part name="J4" library="jetperch" deviceset="BINDING_POST" device="_6" value="111-0702-001">
-<attribute name="MPN" value=""/>
-<attribute name="POPULATE" value="1"/>
-</part>
 <part name="H1" library="jetperch" deviceset="LIGHT_PIPE" device="_PANEL_3MM" value="51513020125F">
 <attribute name="MPN" value="51513020125F"/>
 </part>
-<part name="FUD1" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
-<part name="FUD2" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
-<part name="FUD3" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
-<part name="H2" library="jetperch" deviceset="HOLE" device="_#6"/>
-<part name="H3" library="jetperch" deviceset="HOLE" device="_#6"/>
-<part name="H4" library="jetperch" deviceset="HOLE" device="_#6"/>
-<part name="H5" library="jetperch" deviceset="HOLE" device="_#6"/>
+<part name="H2" library="jetperch" deviceset="FOAM" device="_0.5_0.25" value="ZUSANSR-F-2">
+<attribute name="MPN" value="ZUSANSR-F-2"/>
+<attribute name="POPULATE" value="1"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="177.8" y="26.162" size="5.08" layer="97">Front Panel - Binding Posts</text>
-<text x="266.7" y="6.35" size="3.175" layer="97">B</text>
-<text x="99.06" y="198.12" size="2.54" layer="97" align="center">-  IN  +</text>
-<text x="165.1" y="198.12" size="2.54" layer="97" align="center">-  OUT  +</text>
+<text x="177.8" y="26.162" size="5.08" layer="97">Back Panel - LED</text>
+<text x="266.7" y="6.35" size="3.175" layer="97">G</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -502,89 +305,17 @@ Pipe</text>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="J5" gate="G$1" x="45.72" y="154.94" smashed="yes">
-<attribute name="MPN" x="45.72" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="45.72" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="44.45" y="163.322" size="1.27" layer="95"/>
-<attribute name="VALUE" x="43.688" y="145.288" size="1.27" layer="96"/>
+<instance part="H1" gate="G$1" x="132.08" y="101.6" smashed="yes"/>
+<instance part="H2" gate="G$1" x="152.4" y="101.6" smashed="yes">
+<attribute name="NAME" x="147.32" y="104.902" size="1.27" layer="95"/>
+<attribute name="VALUE" x="147.32" y="96.52" size="1.27" layer="96"/>
+<attribute name="MPN" x="152.4" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATE" x="152.4" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J1" gate="G$1" x="86.36" y="198.12" smashed="yes" rot="R270">
-<attribute name="MPN" x="86.36" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="86.36" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="86.868" y="195.326" size="1.27" layer="95" rot="R270"/>
-<attribute name="VALUE" x="84.328" y="195.326" size="1.27" layer="96" rot="R270"/>
-</instance>
-<instance part="J2" gate="G$1" x="114.3" y="198.12" smashed="yes" rot="R270">
-<attribute name="MPN" x="114.3" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="114.3" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="114.808" y="195.326" size="1.27" layer="95" rot="R270"/>
-<attribute name="VALUE" x="112.268" y="195.326" size="1.27" layer="96" rot="R270"/>
-</instance>
-<instance part="J3" gate="G$1" x="149.86" y="198.12" smashed="yes" rot="R270">
-<attribute name="MPN" x="149.86" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="149.86" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="150.368" y="195.326" size="1.27" layer="95" rot="R270"/>
-<attribute name="VALUE" x="147.828" y="195.326" size="1.27" layer="96" rot="R270"/>
-</instance>
-<instance part="J4" gate="G$1" x="177.8" y="198.12" smashed="yes" rot="R270">
-<attribute name="MPN" x="177.8" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="177.8" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="178.308" y="195.326" size="1.27" layer="95" rot="R270"/>
-<attribute name="VALUE" x="175.768" y="195.326" size="1.27" layer="96" rot="R270"/>
-</instance>
-<instance part="H1" gate="G$1" x="33.02" y="193.04" smashed="yes"/>
-<instance part="FUD1" gate="G$1" x="7.62" y="205.74" smashed="yes"/>
-<instance part="FUD2" gate="G$1" x="12.7" y="205.74" smashed="yes"/>
-<instance part="FUD3" gate="G$1" x="17.78" y="205.74" smashed="yes"/>
-<instance part="H2" gate="G$1" x="7.62" y="200.66" smashed="yes"/>
-<instance part="H3" gate="G$1" x="12.7" y="200.66" smashed="yes"/>
-<instance part="H4" gate="G$1" x="17.78" y="200.66" smashed="yes"/>
-<instance part="H5" gate="G$1" x="22.86" y="200.66" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="EXT_IN" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="157.48" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="157.48" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<label x="55.88" y="160.02" size="1.27" layer="95"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="160.02" x2="114.3" y2="193.04" width="0.1524" layer="91"/>
-<junction x="53.34" y="160.02"/>
-</segment>
-</net>
-<net name="EXT_NEG" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="50.8" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
-<label x="55.88" y="154.94" size="1.27" layer="95"/>
-<wire x1="86.36" y1="154.94" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="193.04" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
-<junction x="86.36" y="154.94"/>
-</segment>
-</net>
-<net name="EXT_OUT" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="5"/>
-<wire x1="50.8" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="149.86" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="4"/>
-<wire x1="53.34" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
-<junction x="53.34" y="149.86"/>
-<label x="55.88" y="149.86" size="1.27" layer="95"/>
-<wire x1="53.34" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="149.86" x2="177.8" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>

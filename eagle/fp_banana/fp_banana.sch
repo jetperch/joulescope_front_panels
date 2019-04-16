@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -310,6 +310,19 @@ Compatible with #6 hole size, such as Cinch 111-0703-001 (black) and 111-0702-01
 <wire x1="-4.445" y1="-0.635" x2="-4.445" y2="0.635" width="0.127" layer="51"/>
 <wire x1="-4.445" y1="0.635" x2="-5.715" y2="0.635" width="0.127" layer="51"/>
 </package>
+<package name="HOLE_3.5MM">
+<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<circle x="0" y="0" radius="3.8" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.5"/>
+<polygon width="0.127" layer="41">
+<vertex x="-3.8" y="0" curve="90"/>
+<vertex x="0" y="-3.8" curve="90"/>
+<vertex x="3.8" y="0" curve="90"/>
+<vertex x="0" y="3.8" curve="90"/>
+</polygon>
+<circle x="0" y="0" radius="2.159" width="0.127" layer="40"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_0.1_5X1">
@@ -349,6 +362,9 @@ Pipe</text>
 <symbol name="FIDUCIAL">
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="0.635" width="0" layer="94"/>
+</symbol>
+<symbol name="STAND-OFF">
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -450,6 +466,18 @@ Pipe</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="HOLE" prefix="H">
+<gates>
+<gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_#6" package="HOLE_3.5MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -489,12 +517,16 @@ Pipe</text>
 <part name="FUD1" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FUD2" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FUD3" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
+<part name="H2" library="jetperch" deviceset="HOLE" device="_#6"/>
+<part name="H3" library="jetperch" deviceset="HOLE" device="_#6"/>
+<part name="H4" library="jetperch" deviceset="HOLE" device="_#6"/>
+<part name="H5" library="jetperch" deviceset="HOLE" device="_#6"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="177.8" y="26.162" size="5.08" layer="97">Front Panel - Banana</text>
-<text x="266.7" y="6.35" size="3.175" layer="97">D</text>
+<text x="266.7" y="6.35" size="3.175" layer="97">G</text>
 <text x="99.06" y="198.12" size="2.54" layer="97" align="center">-  IN  +</text>
 <text x="165.1" y="198.12" size="2.54" layer="97" align="center">-  OUT  +</text>
 </plain>
@@ -539,6 +571,10 @@ Pipe</text>
 <instance part="FUD1" gate="G$1" x="7.62" y="205.74" smashed="yes"/>
 <instance part="FUD2" gate="G$1" x="12.7" y="205.74" smashed="yes"/>
 <instance part="FUD3" gate="G$1" x="17.78" y="205.74" smashed="yes"/>
+<instance part="H2" gate="G$1" x="7.62" y="200.66" smashed="yes"/>
+<instance part="H3" gate="G$1" x="12.7" y="200.66" smashed="yes"/>
+<instance part="H4" gate="G$1" x="17.78" y="200.66" smashed="yes"/>
+<instance part="H5" gate="G$1" x="22.86" y="200.66" smashed="yes"/>
 </instances>
 <busses>
 </busses>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -84,7 +84,7 @@
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -171,7 +171,8 @@
 <rectangle x1="3.78" y1="25.1" x2="73.8" y2="26.6" layer="40"/>
 <rectangle x1="0" y1="3.78" x2="1.5" y2="22.8" layer="40"/>
 <rectangle x1="76.1" y1="3.78" x2="77.6" y2="22.8" layer="40"/>
-<text x="38.8" y="3.81" size="1.5" layer="121" font="vector" ratio="20" align="center">0 to 15V
+<text x="38.8" y="3.81" size="1.5" layer="121" font="vector" ratio="20" align="center">Isolated
+0 to 15V
 0 to 3A</text>
 <wire x1="0" y1="17.3" x2="16.64" y2="17.3" width="0.254" layer="22"/>
 <wire x1="39.37" y1="19.3" x2="77.6" y2="19.3" width="0.254" layer="22"/>
@@ -187,7 +188,7 @@
 <dimension x1="38.8" y1="26.6" x2="0" y2="26.6" x3="19.4" y3="37.21" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="13.3" x2="19.75" y2="17" x3="-7.5785125" y3="15.15" textsize="1.778" layer="47" dtype="vertical"/>
 <text x="43.18" y="-17.16" size="1.778" layer="153">Joulescope Front Panel Reference Baseline
-Last updated: 2019 Mar 20</text>
+Last updated: 2019 Apr 14</text>
 <text x="17.18" y="-12.86" size="1.778" layer="153">Backside keepout
 (in blue)</text>
 <wire x1="26.9" y1="-8.2" x2="31.8" y2="-0.6" width="0.3" layer="153"/>
@@ -470,27 +471,23 @@ These design rules are for standard two layer Jetperch designs.
 <signal name="EXT_IN">
 <contactref element="J5" pad="2"/>
 <contactref element="J5" pad="1"/>
-<wire x1="27.37" y1="19.1545" x2="29.91" y2="22.0755" width="0" layer="19" extent="16-16"/>
+<polygon width="0.254" layer="16" thermals="no" rank="3">
+<vertex x="31.29" y="26.6"/>
+<vertex x="23.3" y="26.6" curve="90"/>
+<vertex x="10" y="13.3" curve="90"/>
+<vertex x="23.3" y="0"/>
+<vertex x="31.29" y="0"/>
+</polygon>
 </signal>
 <signal name="EXT_NEG">
 <contactref element="J5" pad="3"/>
-<polygon width="0.1524" layer="1" thermals="no">
-<vertex x="73.81" y="0"/>
-<vertex x="3.79" y="0" curve="-90"/>
-<vertex x="0" y="3.79"/>
-<vertex x="0" y="22.81" curve="-90"/>
-<vertex x="3.79" y="26.6"/>
-<vertex x="73.81" y="26.6" curve="-90"/>
-<vertex x="77.6" y="22.81"/>
-<vertex x="77.6" y="3.79" curve="-90"/>
-</polygon>
-<polygon width="0.254" layer="16" thermals="no" rank="3">
-<vertex x="31.29" y="26.6"/>
-<vertex x="3.79" y="26.6" curve="90"/>
-<vertex x="0" y="22.81"/>
-<vertex x="0" y="3.79" curve="90"/>
-<vertex x="3.79" y="0"/>
-<vertex x="31.29" y="0"/>
+<polygon width="0.254" layer="1" thermals="no">
+<vertex x="23.3" y="26.6"/>
+<vertex x="54.3" y="26.6" curve="-90"/>
+<vertex x="67.6" y="13.3" curve="-90"/>
+<vertex x="54.3" y="0"/>
+<vertex x="23.3" y="0" curve="-90"/>
+<vertex x="10" y="13.3" curve="-90"/>
 </polygon>
 <wire x1="32.45" y1="19.1545" x2="32.45" y2="23.05" width="0.762" layer="16"/>
 <wire x1="32.45" y1="23.05" x2="32.5" y2="23.1" width="0.762" layer="16"/>
@@ -501,13 +498,11 @@ These design rules are for standard two layer Jetperch designs.
 <contactref element="J5" pad="4"/>
 <polygon width="0.254" layer="16" isolate="0.254" thermals="no">
 <vertex x="33.56" y="26.6"/>
-<vertex x="73.68" y="26.6" curve="-90"/>
-<vertex x="77.47" y="22.81"/>
-<vertex x="77.47" y="3.79" curve="-90"/>
-<vertex x="73.68" y="0"/>
+<vertex x="54.3" y="26.6" curve="-90"/>
+<vertex x="67.6" y="13.3" curve="-90"/>
+<vertex x="54.3" y="0"/>
 <vertex x="33.56" y="0"/>
 </polygon>
-<wire x1="34.99" y1="22.0755" x2="37.53" y2="19.1545" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
