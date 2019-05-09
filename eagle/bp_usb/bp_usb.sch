@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -296,7 +296,7 @@ Pipe</text>
 <sheet>
 <plain>
 <text x="177.8" y="26.162" size="5.08" layer="97">Back Panel - LED</text>
-<text x="266.7" y="6.35" size="3.175" layer="97">G</text>
+<text x="266.7" y="6.35" size="3.175" layer="97">H</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>

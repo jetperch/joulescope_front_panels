@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,10 +8,10 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -161,7 +161,7 @@
 <hole x="3.79" y="22.81" drill="3.5"/>
 <hole x="73.81" y="22.81" drill="3.5"/>
 <text x="38.8" y="21" size="4" layer="121" font="vector" ratio="20" align="center">USB</text>
-<text x="38.8" y="3.01" size="1.27" layer="122" font="vector" ratio="20" rot="MR0" align="center">Joulescope Back Panel: rev G
+<text x="38.8" y="3.01" size="1.27" layer="122" font="vector" ratio="20" rot="MR0" align="center">Joulescope Back Panel: rev H
 2019 Jetperch LLC</text>
 <dimension x1="0" y1="22.81" x2="77.6" y2="19.05" x3="38.8" y3="37.75" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.79" y1="0" x2="7.62" y2="26.6" x3="-6.35" y3="13.3" textsize="1.778" layer="47" dtype="vertical"/>
@@ -198,22 +198,22 @@
 <dimension x1="77.6" y1="0" x2="77.6" y2="13.3" x3="86.7914875" y3="6.65" textsize="1.778" layer="47"/>
 <wire x1="0" y1="18.3" x2="23.6" y2="18.3" width="0.127" layer="22" style="shortdash"/>
 <wire x1="58" y1="19.3" x2="77.6" y2="19.3" width="0.254" layer="22"/>
-<wire x1="20.005" y1="11.98" x2="11.875" y2="11.98" width="0.1524" layer="20"/>
-<wire x1="11.875" y1="11.98" x2="11.375" y2="12.48" width="0.1524" layer="20" curve="-90"/>
-<wire x1="11.375" y1="12.48" x2="11.375" y2="17.43" width="0.1524" layer="20"/>
-<wire x1="11.375" y1="17.43" x2="11.875" y2="17.93" width="0.1524" layer="20" curve="-90"/>
-<wire x1="11.875" y1="17.93" x2="20.005" y2="17.93" width="0.1524" layer="20"/>
-<wire x1="20.005" y1="17.93" x2="20.505" y2="17.43" width="0.1524" layer="20" curve="-90"/>
-<wire x1="20.505" y1="17.43" x2="20.505" y2="12.48" width="0.1524" layer="20"/>
-<wire x1="20.505" y1="12.48" x2="20.005" y2="11.98" width="0.1524" layer="20" curve="-90"/>
+<wire x1="11.375" y1="12.98" x2="11.375" y2="17.67" width="0.1524" layer="20"/>
+<wire x1="11.375" y1="17.67" x2="11.875" y2="18.17" width="0.1524" layer="20" curve="-90"/>
+<wire x1="11.875" y1="18.17" x2="20.005" y2="18.17" width="0.1524" layer="20"/>
+<wire x1="20.005" y1="18.17" x2="20.505" y2="17.67" width="0.1524" layer="20" curve="-90"/>
+<wire x1="20.505" y1="17.67" x2="20.505" y2="12.98" width="0.1524" layer="20"/>
+<wire x1="20.505" y1="12.98" x2="20.005" y2="12.48" width="0.1524" layer="20" curve="-90"/>
+<wire x1="20.005" y1="12.48" x2="11.875" y2="12.48" width="0.1524" layer="20"/>
+<wire x1="11.875" y1="12.48" x2="11.375" y2="12.98" width="0.1524" layer="20" curve="-90"/>
 <text x="15.94" y="18.43" size="1.27" layer="121" font="vector" ratio="20" distance="100" rot="SR90" align="center-left">IN0
 IN1
 +5V</text>
-<text x="15.94" y="11.48" size="1.27" layer="121" font="vector" ratio="20" distance="100" rot="SR90" align="center-right">OUT0
+<text x="15.94" y="11.98" size="1.27" layer="121" font="vector" ratio="20" distance="100" rot="SR90" align="center-right">OUT0
 OUT1
 GND</text>
 <dimension x1="0" y1="22.81" x2="38.8" y2="19.05" x3="19.4" y3="32.75" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="15.94" y1="11.48" x2="38.8" y2="6.19" x3="27.37" y3="-4.37" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="15.94" y1="11.98" x2="38.8" y2="6.19" x3="27.37" y3="-4.37" textsize="1.778" layer="47" dtype="horizontal"/>
 <text x="15.94" y="3.5" size="1.27" layer="121" font="vector" ratio="20" align="center">1.8V to 5V
 Referenced to
 USB Ground</text>
@@ -471,17 +471,17 @@ These design rules are for standard two layer Jetperch designs.
 <vertex x="0" y="3.79"/>
 <vertex x="0" y="22.81" curve="-90"/>
 </polygon>
-<polygon width="0.1524" layer="1" pour="cutout">
-<vertex x="11.375" y="17.93"/>
-<vertex x="20.505" y="17.93"/>
-<vertex x="20.505" y="11.98"/>
-<vertex x="11.375" y="11.98"/>
+<polygon width="0.1524" layer="1" spacing="0" pour="cutout">
+<vertex x="11.375" y="18.17"/>
+<vertex x="20.505" y="18.17"/>
+<vertex x="20.505" y="12.48"/>
+<vertex x="11.375" y="12.48"/>
 </polygon>
-<polygon width="0.1524" layer="16" pour="cutout">
-<vertex x="11.375" y="17.93"/>
-<vertex x="20.505" y="17.93"/>
-<vertex x="20.505" y="11.98"/>
-<vertex x="11.375" y="11.98"/>
+<polygon width="0.1524" layer="16" spacing="0" pour="cutout">
+<vertex x="11.375" y="18.17"/>
+<vertex x="20.505" y="18.17"/>
+<vertex x="20.505" y="12.48"/>
+<vertex x="11.375" y="12.48"/>
 </polygon>
 <polygon width="0.1524" layer="1" pour="cutout">
 <vertex x="32.55" y="17.93"/>
