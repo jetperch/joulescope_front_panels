@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -188,8 +188,9 @@
 <dimension x1="38.8" y1="26.6" x2="0" y2="26.6" x3="19.4" y3="37.21" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="13.3" x2="19.75" y2="17" x3="-7.5785125" y3="15.15" textsize="1.778" layer="47" dtype="vertical"/>
 <text x="43.18" y="-17.16" size="1.778" layer="153">Joulescope Front Panel Reference Baseline
-Last updated: 2019 Apr 16</text>
-<text x="17.18" y="-12.86" size="1.778" layer="153">Backside keepout
+Last updated: 2019 Jul 30</text>
+<text x="12.88" y="-16.36" size="1.778" layer="153">Backside edge keepout
+1.5 mm wide
 (in blue)</text>
 <wire x1="26.9" y1="-8.2" x2="31.8" y2="-0.6" width="0.3" layer="153"/>
 <polygon width="0.1524" layer="153">
@@ -197,6 +198,24 @@ Last updated: 2019 Apr 16</text>
 <vertex x="31.9" y="-1.9"/>
 <vertex x="31.9" y="-0.4"/>
 </polygon>
+<text x="26.4" y="15.7" size="1" layer="51" font="vector" ratio="21">EXT_IN</text>
+<text x="34.4" y="15.6" size="1" layer="51" font="vector" ratio="21">EXT_OUT</text>
+<text x="32" y="16.6" size="1" layer="51" font="vector" ratio="21" rot="R270">EXT_NEG</text>
+<text x="41.18" y="28.84" size="1.2" layer="153" ratio="14">Connector: Samtec TSM-105-01-S-SV
+ON BACK SIDE
+Pinout:
+1,2: EXT_IN
+3: EXT_NEG
+4,5: EXT_OUT</text>
+<text x="7.38" y="-5.06" size="1.2" layer="153" ratio="14">Lightpipe: 0.115" drill
+Dialight 51513020125F</text>
+<wire x1="15.3" y1="-1.8" x2="19" y2="13.9" width="0.3" layer="153"/>
+<polygon width="0.1524" layer="153">
+<vertex x="18" y="13.4"/>
+<vertex x="19.7" y="13"/>
+<vertex x="19.2" y="14.8"/>
+</polygon>
+<dimension x1="0" y1="17.3" x2="0" y2="19.3" x3="-3" y3="18.3" textsize="1.778" layer="47" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="jetperch">
@@ -445,7 +464,7 @@ These design rules are for standard two layer Jetperch designs.
 </pass>
 </autorouter>
 <elements>
-<element name="J5" library="jetperch" package="CONN_0.1_5X1_MS" value="TSM-105-01-S-SV" x="32.45" y="20.615" smashed="yes" rot="MR180">
+<element name="J1" library="jetperch" package="CONN_0.1_5X1_MS" value="TSM-105-01-S-SV" x="32.45" y="20.615" smashed="yes" rot="MR180">
 <attribute name="MPN" value="TSM-105-01-S-SV" x="32.45" y="20.615" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="39.308" y="21.885" size="0.8128" layer="26" font="vector" ratio="22" rot="MR180"/>
 <attribute name="POPULATE" value="1" x="32.45" y="20.615" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -460,17 +479,17 @@ These design rules are for standard two layer Jetperch designs.
 <element name="H2" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="3.79" y="22.81" smashed="yes">
 <attribute name="POPULATE" value="0" x="3.79" y="22.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H4" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="73.81" y="22.81" smashed="yes">
+<element name="H5" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="73.81" y="22.81" smashed="yes">
 <attribute name="POPULATE" value="0" x="73.81" y="22.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H5" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="73.81" y="3.79" smashed="yes">
+<element name="H4" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="73.81" y="3.79" smashed="yes">
 <attribute name="POPULATE" value="0" x="73.81" y="3.79" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
 <signal name="EXT_IN">
-<contactref element="J5" pad="2"/>
-<contactref element="J5" pad="1"/>
+<contactref element="J1" pad="2"/>
+<contactref element="J1" pad="1"/>
 <polygon width="0.254" layer="16" thermals="no" rank="3">
 <vertex x="31.29" y="26.6"/>
 <vertex x="23.3" y="26.6" curve="90"/>
@@ -480,7 +499,7 @@ These design rules are for standard two layer Jetperch designs.
 </polygon>
 </signal>
 <signal name="EXT_NEG">
-<contactref element="J5" pad="3"/>
+<contactref element="J1" pad="3"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="23.3" y="26.6"/>
 <vertex x="54.3" y="26.6" curve="-90"/>
@@ -494,8 +513,8 @@ These design rules are for standard two layer Jetperch designs.
 <via x="32.5" y="23.1" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="EXT_OUT">
-<contactref element="J5" pad="5"/>
-<contactref element="J5" pad="4"/>
+<contactref element="J1" pad="5"/>
+<contactref element="J1" pad="4"/>
 <polygon width="0.254" layer="16" isolate="0.254" thermals="no">
 <vertex x="33.56" y="26.6"/>
 <vertex x="54.3" y="26.6" curve="-90"/>

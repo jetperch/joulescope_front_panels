@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -402,7 +402,7 @@ Pipe</text>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device="" value="PG1"/>
-<part name="J5" library="jetperch" deviceset="CONN_0.1_5X1" device="_MS" value="TSM-105-01-S-SV">
+<part name="J1" library="jetperch" deviceset="CONN_0.1_5X1" device="_MS" value="TSM-105-01-S-SV">
 <attribute name="MPN" value="TSM-105-01-S-SV"/>
 <attribute name="POPULATE" value="1"/>
 </part>
@@ -415,10 +415,10 @@ Pipe</text>
 <part name="H2" library="jetperch" deviceset="HOLE" device="_#6">
 <attribute name="POPULATE" value="0"/>
 </part>
-<part name="H4" library="jetperch" deviceset="HOLE" device="_#6">
+<part name="H5" library="jetperch" deviceset="HOLE" device="_#6">
 <attribute name="POPULATE" value="0"/>
 </part>
-<part name="H5" library="jetperch" deviceset="HOLE" device="_#6">
+<part name="H4" library="jetperch" deviceset="HOLE" device="_#6">
 <attribute name="POPULATE" value="0"/>
 </part>
 </parts>
@@ -426,8 +426,10 @@ Pipe</text>
 <sheet>
 <plain>
 <text x="177.8" y="26.162" size="5.08" layer="97">Front Panel - Baseline</text>
-<text x="266.7" y="6.35" size="3.175" layer="97">A</text>
+<text x="266.7" y="6.35" size="3.175" layer="97">B</text>
 <text x="96.52" y="154.94" size="1.778" layer="97">Add your desired connectors here!</text>
+<text x="20.32" y="182.88" size="1.778" layer="97">Dialight 51513020125F</text>
+<text x="43.688" y="143.002" size="1.27" layer="97">Samtec</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -436,24 +438,24 @@ Pipe</text>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="J5" gate="G$1" x="45.72" y="154.94" smashed="yes">
+<instance part="J1" gate="G$1" x="45.72" y="154.94" smashed="yes">
 <attribute name="MPN" x="45.72" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATE" x="45.72" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="44.45" y="163.322" size="1.27" layer="95"/>
 <attribute name="VALUE" x="43.688" y="145.288" size="1.27" layer="96"/>
 </instance>
 <instance part="H1" gate="G$1" x="33.02" y="193.04" smashed="yes"/>
-<instance part="H3" gate="G$1" x="10.16" y="205.74" smashed="yes">
-<attribute name="POPULATE" x="10.16" y="205.74" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="H2" gate="G$1" x="15.24" y="205.74" smashed="yes">
+<instance part="H3" gate="G$1" x="15.24" y="205.74" smashed="yes">
 <attribute name="POPULATE" x="15.24" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="H4" gate="G$1" x="20.32" y="205.74" smashed="yes">
-<attribute name="POPULATE" x="20.32" y="205.74" size="1.778" layer="96" display="off"/>
+<instance part="H2" gate="G$1" x="10.16" y="205.74" smashed="yes">
+<attribute name="POPULATE" x="10.16" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="H5" gate="G$1" x="25.4" y="205.74" smashed="yes">
 <attribute name="POPULATE" x="25.4" y="205.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="H4" gate="G$1" x="20.32" y="205.74" smashed="yes">
+<attribute name="POPULATE" x="20.32" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -461,10 +463,10 @@ Pipe</text>
 <nets>
 <net name="EXT_IN" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="157.48" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="157.48" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
 <label x="55.88" y="160.02" size="1.27" layer="95"/>
 <wire x1="53.34" y1="160.02" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
@@ -473,17 +475,17 @@ Pipe</text>
 </net>
 <net name="EXT_NEG" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="3"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 <label x="55.88" y="154.94" size="1.27" layer="95"/>
 <wire x1="88.9" y1="154.94" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXT_OUT" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="5"/>
+<pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="50.8" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="149.86" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="4"/>
+<pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="53.34" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
 <junction x="53.34" y="149.86"/>
 <label x="55.88" y="149.86" size="1.27" layer="95"/>
