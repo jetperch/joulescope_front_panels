@@ -1,0 +1,52 @@
+{
+  "H1": {
+    "value": "51513020125F",
+    "device": "LIGHT_PIPE_PANEL_3MM",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "51513020125F",
+      "POPULATE": "1"
+    }
+  },
+  "H2": {
+    "value": "HOLE_#6",
+    "device": "HOLE_#6",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H3": {
+    "value": "HOLE_#6",
+    "device": "HOLE_#6",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H4": {
+    "value": "HOLE_#6",
+    "device": "HOLE_#6",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H5": {
+    "value": "HOLE_#6",
+    "device": "HOLE_#6",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "J1": {
+    "value": "TSM-105-01-S-SV",
+    "device": "CONN_0.1_5X1_MS",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "TSM-105-01-S-SV",
+      "POPULATE": "1"
+    }
+  }
+}

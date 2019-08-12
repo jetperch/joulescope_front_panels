@@ -2,6 +2,15 @@
 # Joulescope baseline - starting example
 
 
+## Version B - 20190812
+
+2019 Aug 12
+
+* Added gerbers
+* Added BOM
+* Added "Rev B" text to brd file.
+
+
 ## Version B - 20190730
 
 2019 Jul 30
