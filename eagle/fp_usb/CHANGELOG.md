@@ -2,6 +2,13 @@
 # Joulescope USB front panel PCB
 
 
+## Version D
+
+2019 Aug 13
+
+* Fixed mounting hole location which was off by 0.18 mm (7 mil).
+
+
 ## Version C
 
 2019 Apr 16

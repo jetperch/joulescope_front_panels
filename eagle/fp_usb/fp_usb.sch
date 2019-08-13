@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -607,7 +607,7 @@ Pipe</text>
 <sheet>
 <plain>
 <text x="177.8" y="26.162" size="5.08" layer="97">Front Panel - USB</text>
-<text x="266.7" y="6.35" size="3.175" layer="97">C</text>
+<text x="266.7" y="6.35" size="3.175" layer="97">D</text>
 <text x="73.66" y="116.84" size="2.54" layer="97" align="center">IN</text>
 <text x="218.44" y="114.3" size="2.54" layer="97" align="center">OUT</text>
 <text x="99.06" y="50.8" size="1.778" layer="97">Route D_P and D_N as differential pair

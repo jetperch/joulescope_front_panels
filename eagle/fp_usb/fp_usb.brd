@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -158,7 +158,7 @@
 <wire x1="3.79" y1="26.6" x2="0" y2="22.81" width="0" layer="20" curve="90"/>
 <text x="14" y="22.27" size="3.81" layer="121" font="vector" ratio="20" align="center">IN</text>
 <text x="63.6" y="22.27" size="3.81" layer="121" font="vector" ratio="20" align="center">OUT</text>
-<text x="38.8" y="3.01" size="1.27" layer="122" font="vector" ratio="20" rot="MR0" align="center">Joulescope Front Panel: USB rev C
+<text x="38.8" y="3.01" size="1.27" layer="122" font="vector" ratio="20" rot="MR0" align="center">Joulescope Front Panel: USB rev D
 2019 Jetperch LLC</text>
 <dimension x1="0" y1="22.81" x2="77.6" y2="19.05" x3="38.8" y3="31.75" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.79" y1="0" x2="7.62" y2="26.6" x3="-6.35" y3="13.3" textsize="1.778" layer="47" dtype="vertical"/>
@@ -516,8 +516,8 @@ These design rules are for standard two layer Jetperch designs.
 <attribute name="MPN" value="51513020125F" x="19.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="19.75" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H3" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="3.97" y="22.81" smashed="yes">
-<attribute name="POPULATE" value="0" x="3.97" y="22.81" size="1.778" layer="27" display="off"/>
+<element name="H3" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="3.79" y="22.81" smashed="yes">
+<attribute name="POPULATE" value="0" x="3.79" y="22.81" size="1.778" layer="27" display="off"/>
 </element>
 <element name="H4" library="jetperch" package="HOLE_3.5MM" value="HOLE_#6" x="73.81" y="22.81" smashed="yes">
 <attribute name="POPULATE" value="0" x="73.81" y="22.81" size="1.778" layer="27" display="off"/>
