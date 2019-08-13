@@ -1,0 +1,42 @@
+(export (version D)
+  (design
+    (source C:\Users\MATTERealise\Documents\joulescope\fp_baseline\fp_baseline.sch)
+    (date "01/08/2019 13:00:03")
+    (tool "Eeschema (5.1.0)-1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "JS110 Joulescope Front Panel Baseline")
+        (company)
+        (rev 1)
+        (date 2019-07-31)
+        (source fp_baseline.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "All Joulescope front-panel designs are released under the permissive Apache 2.0 license.")))))
+  (components
+    (comp (ref J1)
+      (value JS110_Joulescope)
+      (footprint SiCAD:Joulscope_FP_baseline)
+      (libsource (lib SiCAD) (part JS110_Joulescope) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5D42E823)))
+  (libparts
+    (libpart (lib SiCAD) (part JS110_Joulescope)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) JS110_Joulescope))
+      (pins
+        (pin (num 1) (name EXT_IN) (type input))
+        (pin (num 3) (name EXT_NEG) (type BiDi))
+        (pin (num 5) (name EXT_OUT) (type output)))))
+  (libraries
+    (library (logical SiCAD)
+      (uri C:/Users/MATTERealise/Documents/KICAD_USER_LIBRARY/USER-SYMBOLS/SiCAD.lib)))
+  (nets
+    (net (code 1) (name EXT_IN)
+      (node (ref J1) (pin 1)))
+    (net (code 2) (name EXT_NEG)
+      (node (ref J1) (pin 3)))
+    (net (code 3) (name EXT_OUT)
+      (node (ref J1) (pin 5)))))
