@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -161,7 +161,7 @@
 <hole x="3.79" y="22.81" drill="3.5"/>
 <hole x="73.81" y="22.81" drill="3.5"/>
 <text x="38.8" y="21" size="4" layer="121" font="vector" ratio="20" align="center">USB</text>
-<text x="38.8" y="3.01" size="1.27" layer="122" font="vector" ratio="20" rot="MR0" align="center">Joulescope Back Panel: rev H
+<text x="38.8" y="3.01" size="1.27" layer="122" font="vector" ratio="20" rot="MR0" align="center">Joulescope Back Panel: rev J
 2019 Jetperch LLC</text>
 <dimension x1="0" y1="22.81" x2="77.6" y2="19.05" x3="38.8" y3="37.75" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.79" y1="0" x2="7.62" y2="26.6" x3="-6.35" y3="13.3" textsize="1.778" layer="47" dtype="vertical"/>
@@ -223,6 +223,10 @@ USB Ground</text>
 <vertex x="56" y="16.3"/>
 <vertex x="56" y="20.3"/>
 </polygon>
+<text x="14" y="-19" size="1.778" layer="153">All dimensions in millimeters
+Place all markings on back (including pcb order number).
+Add flammability rating marking on back, such as 94V-0.
+The front-side surface is cosmetic - reject units with scratches and blemishes.</text>
 </plain>
 <libraries>
 <library name="jetperch">

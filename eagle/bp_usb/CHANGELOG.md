@@ -2,6 +2,21 @@
 # Joulescope USB back panel PCB
 
 
+## Version J
+
+2019 Sep 15
+
+* Added brief fab notes.
+
+
+## Version H
+
+2019 May 9
+
+* Moved GPI/O cutout.
+* Fixed schematic name.
+
+
 ## Version G
 
 2019 Apr 16
