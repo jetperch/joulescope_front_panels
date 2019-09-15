@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -206,11 +206,11 @@
 <library name="jetperch">
 <packages>
 <package name="CONN_0.1_5X1_MS">
-<smd name="1" x="-5.08" y="1.4605" dx="3.429" dy="1.143" layer="1" rot="R90"/>
-<smd name="3" x="0" y="1.4605" dx="3.429" dy="1.143" layer="1" rot="R90"/>
-<smd name="5" x="5.08" y="1.4605" dx="3.429" dy="1.143" layer="1" rot="R90"/>
-<smd name="2" x="-2.54" y="-1.4605" dx="3.429" dy="1.143" layer="1" rot="R90"/>
-<smd name="4" x="2.54" y="-1.4605" dx="3.429" dy="1.143" layer="1" rot="R90"/>
+<smd name="1" x="-5.08" y="1.4605" dx="3.429" dy="1.27" layer="1" rot="R90"/>
+<smd name="3" x="0" y="1.4605" dx="3.429" dy="1.27" layer="1" rot="R90"/>
+<smd name="5" x="5.08" y="1.4605" dx="3.429" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="-2.54" y="-1.4605" dx="3.429" dy="1.27" layer="1" rot="R90"/>
+<smd name="4" x="2.54" y="-1.4605" dx="3.429" dy="1.27" layer="1" rot="R90"/>
 <wire x1="-6.604" y1="3.429" x2="-6.604" y2="-3.429" width="0.0508" layer="39"/>
 <wire x1="-6.604" y1="-3.429" x2="6.604" y2="-3.429" width="0.0508" layer="39"/>
 <wire x1="6.604" y1="-3.429" x2="6.604" y2="3.429" width="0.0508" layer="39"/>
@@ -267,10 +267,10 @@ Compatible with #6 hole size, such as Cinch 111-0703-001 (black) and 111-0702-01
 <circle x="0" y="0" radius="0.508" width="0" layer="29"/>
 <circle x="0" y="0" radius="1.016" width="0" layer="41"/>
 <circle x="0" y="0" radius="1.016" width="0" layer="39"/>
-<circle x="0" y="0" radius="0.508" width="0" layer="1"/>
 <circle x="0" y="0" radius="0.508" width="0.127" layer="51"/>
 <wire x1="-1" y1="0" x2="1" y2="0" width="0.127" layer="51"/>
 <wire x1="0" y1="1" x2="0" y2="-1" width="0.127" layer="51"/>
+<smd name="P1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" thermals="no" cream="no"/>
 </package>
 <package name="CONN_0.1_5X1_F_RA">
 <pad name="1" x="-5.08" y="0" drill="1.016" shape="square"/>
@@ -452,7 +452,7 @@ Pipe</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FIDUCIAL" prefix="FUD">
+<deviceset name="FIDUCIAL" prefix="FD">
 <gates>
 <gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
 </gates>
@@ -526,7 +526,7 @@ Pipe</text>
 <sheet>
 <plain>
 <text x="177.8" y="26.162" size="5.08" layer="97">Front Panel - Banana</text>
-<text x="266.7" y="6.35" size="3.175" layer="97">G</text>
+<text x="266.7" y="6.35" size="3.175" layer="97">H</text>
 <text x="99.06" y="198.12" size="2.54" layer="97" align="center">-  IN  +</text>
 <text x="165.1" y="198.12" size="2.54" layer="97" align="center">-  OUT  +</text>
 </plain>
