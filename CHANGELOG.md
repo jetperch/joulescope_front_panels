@@ -4,6 +4,14 @@
 This file contains the list of changes made to joulescope_front_panels.
 
 
+
+## 0.2.2
+
+2019 Oct 21
+
+* Fixed binding post centerline offset dimension.
+
+
 ## 0.2.1
 
 2019 May 9
