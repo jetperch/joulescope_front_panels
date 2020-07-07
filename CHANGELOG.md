@@ -5,6 +5,13 @@ This file contains the list of changes made to joulescope_front_panels.
 
 
 
+## 0.2.3
+
+2020 Jul 7
+
+* Added fp_usb3 gerber design.  Thank you Mettler-Toledo AutoChem!
+
+
 ## 0.2.2
 
 2019 Oct 21

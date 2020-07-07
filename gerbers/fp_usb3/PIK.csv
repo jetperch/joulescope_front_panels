@@ -1,0 +1,4 @@
+"Ref","Package","Type","Product/Label","Side","X","Y","Rotation"
+"J3","CON-HDR::USB_3.0_A","TH","USB_3.0_A","Top","2525.98","424.02","90.00"
+"J2","CON-HDR::MM_USB3+MICRO-B_vertical","SMT","USB_3.0_MICRO-B","Top","409.45","417.32","270.00"
+"J1","CON-HDR::TSM-105-01-S-SV","SMT","HEADER_5","Bottom","1279.92","811.42","180.00"
